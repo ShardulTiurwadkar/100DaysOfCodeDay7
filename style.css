@@ -1,0 +1,59 @@
+.title-wrapper{
+	margin: 0px;
+	background: lightblue;
+	padding: 10px;
+	border: 2px solid blue;
+	display: flex;
+     justify-content: space-around;
+}
+
+.title{
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	display: inline-block;
+	color: darkblue;
+    transition: color 2s ease ;
+}
+
+
+.title:hover{
+	
+	color: #eb52e8;
+
+}
+
+
+.menu{
+	display: flex;
+	border: 2px solid red;
+	background: yellow;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.menu-item{
+		margin: 5px;
+		height: 15px;
+}
+
+.menu-link{
+	text-decoration: none;
+	font-family: sans-serif;
+	transition: color,font-size 0.5s ease-in ;
+}
+
+.menu-link:hover{
+	
+	color: orange;
+	font-size: 25px;
+
+}
+
+
+.main-cat-img{
+	width: 100%;
+
+}
+
